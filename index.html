@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <header>
-        <div id="title">
+    <header class="container">
+        <div id="title" class="title">
             <h1>Aqui vai</h1>
             <h1>Sua logo</h1>
 
@@ -20,13 +20,13 @@
                 <li><a href="#">Serviços</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Contato</a></li>
-                <li><a href="#">Já tem uma conta?</a></li>
+                <li><a href="#" class="botao">Já tem uma conta?</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="container">
         <aside>
-            <h2>Increva-se agora</h2>
+            <h2><span>Increva-se agora</span></h2>
             <h2>na Newslater</h2>
 
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi placeat ipsa rerum laborum sequi sapiente, unde itaque corporis. Quibusdam illum non quam, eveniet tenetur aut cumque! Ut soluta magni quas?</p>
@@ -36,9 +36,13 @@
                 <label for="nome" class="nome" id="nome"></label>
                 <input type="email" name="email" placeholder="E-mail">
                 <label for="email" name="email" class="email" id="email"></label>
-                <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar" class="botao-enviar">
             </form>
         </aside>
+
+        <div class="imagem-decorativa">
+            <img src="./componentes/images/imagem-decorativa.png" alt="Imagem demostrativa">
+        </div>
     </main>
     
 </body>
